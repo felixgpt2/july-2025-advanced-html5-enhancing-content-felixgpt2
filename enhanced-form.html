@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week two enhanced</title>
+</head>
+<body>
+    <h1>Enhanced HTML5 form</h1>
+    <H2>Lists</H2>
+    <dl>
+        <dt>HTML</dt>
+        <DD>HyperText Markup Language</DD>
+        <br>
+        <dt>EU</dt>
+        <DD>Egerton university</DD>
+
+    </dl>
+    <h2>nested list</h2>
+    <ol>
+        <li>languages
+            <ul>
+                <li>python</li>
+                <li>java</li>
+                <li>javascript</li>
+
+            </ul>
+        </li>
+    </ol>
+    <br>
+    <h2>multimedia</h2>
+    <!--first image-->
+    <h3>image</h3>
+    <img src="https://images.pexels.com/photos/7429193/pexels-photo-7429193.jpeg" alt="black and white image" width="300" height="300">
+    <h3>video</h3>
+    <!--my first video-->
+    <video width="320" height="240" controls>
+        <source src="https://videos.pexels.com/video-files/27563283/12169937_1080_1920_24fps.mp4" type="video/mp4">
+
+    </video>
+    <br>
+    <!--tables-->
+    <h2>Example of a table</h2>
+    <table border="i">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>level</th>
+                <th>score</th>
+            </tr>
+            <tbody>
+                <tr>
+                <td>john</td>
+                <td>2</td>
+                <td>50</td>
+
+                </tr>
+                <tr>
+                    <td>ruth</td>
+                    <td>1</td>
+                    <td>100</td>
+                </tr>
+                
+            </tbody>
+        </thead>
+
+    </table>
+    <!--form-->
+    <h2>form</h2>
+    <form action="/submit" method="post">
+    <label>Name:</label>
+    <input type="text" name="username" placeholder="Enter your name" required maxlength="20" autofocus>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Age:</label>
+    <input type="number" name="age" min="18" max="99">
+
+    <label>Password:</label>
+    <input type="password" name="password" required>
+
+    <label>Profile Picture:</label>
+    <input type="file" name="photo" multiple>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male" checked> Male
+    <input type="radio" name="gender" value="Female"> Female
+
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
